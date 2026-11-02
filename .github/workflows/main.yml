@@ -9,7 +9,7 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 60
 
-    steps:
+steps:
       - name: Configure RDP User
         shell: pwsh
         env:
